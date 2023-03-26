@@ -10,7 +10,7 @@ export default function fill(obj, keys, data) {
       return acc;
     }, obj);
   }
-  
+   
   
   return obj;
 }

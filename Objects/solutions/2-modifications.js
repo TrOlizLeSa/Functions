@@ -6,7 +6,6 @@ function normalizeLesson(lesson) {
   lesson.name = capitalize(lesson.name);
   lesson.description = lesson.description.toLowerCase();
 }
-
 export default normalizeLesson;
 
   // END

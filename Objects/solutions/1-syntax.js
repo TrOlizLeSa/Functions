@@ -6,7 +6,6 @@ export const getObject = () => {
   "config": true
   };
   
-  
   return obj;
   };
   

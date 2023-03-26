@@ -8,7 +8,6 @@ export default function countWords(sentence) {
       result[item]+=1;
     }
     
-  
     else{
       result[item]=1;
     }
