@@ -6,5 +6,6 @@ export default (companyOne, companyTwo) => {
     }
   }
   
+  
   return true;
 };

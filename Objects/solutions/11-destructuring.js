@@ -7,4 +7,5 @@ export default function getSortedNames(users) {
   return names.sort();
 }
 
+  
 // END

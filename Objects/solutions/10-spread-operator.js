@@ -5,4 +5,5 @@ export default function make(name, options = {}) {
     return { ...company, state, createdAt, ...options };
   }
   
+  
 // END

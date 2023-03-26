@@ -5,5 +5,6 @@ export default (url) => {
   const name = url.replace(`${scheme}://`, '');
 
   
+  
   return { scheme, name };
 };
