@@ -1,5 +1,18 @@
 import _ from 'lodash';
 
-// BEGIN
+export default function countWords(sentence) {
+  const words = _.words(sentence.toLowerCase());
+  const result = {};
 
-// END
+  for (const item of words) {
+    if (result[item]){
+      result[item]+=1;
+    }
+    else{
+      result[item]=1;
+    }
+    //result[item] = result[item] ?  : 1;
+  }
+
+  return result;
+}

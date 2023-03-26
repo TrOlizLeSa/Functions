@@ -1,24 +1,11 @@
-// BEGIN
-const solution = () => {
-    const json = `
-      {
-        "name": "John",
-        "age": 30,
-        "city": "New York",
-        "hobbies": [
-          "swimming",
-          "reading"
-        ],
-        "isMarried": true,
-        "spouse": {
-          "name": "Jane",
-          "age": 28
-        }
-      }
-    `;
-    
-    return JSON.parse(json);
+export const getObject = () => {
+  let obj = {
+  "files": [
+  "src/objects.js"
+  ],
+  "config": true
+  };
+  return obj;
   };
   
-  export default solution;
-// END
+  export default getObject;
