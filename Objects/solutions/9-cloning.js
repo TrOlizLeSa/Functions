@@ -6,4 +6,5 @@ const cloneShallow = (obj) => {
   return newObject;
 };
 
+
 export default cloneShallow;

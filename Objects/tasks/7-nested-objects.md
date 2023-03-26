@@ -9,19 +9,7 @@
 ```js
 import get from '../solutions/7-nested-objects.js';
  
-const data = {
-  user: 'ubuntu',
-  hosts: {
-    0: {
-      name: 'web1',
-    },
-    1: {
-      name: 'web2',
-      null: 3,
-      active: false,
-    },
-  },
-};
+const data = {user: 'ubuntu', hosts: {0: {name: 'web1',},1: {name: 'web2',null: 3,active: false,},},};
  
 get(data, ['undefined']); // null
 get(data, ['user']); // 'ubuntu'

@@ -7,4 +7,5 @@ function normalizeLesson(lesson) {
   lesson.description = lesson.description.toLowerCase();
 }
 export default normalizeLesson;
+
   // END

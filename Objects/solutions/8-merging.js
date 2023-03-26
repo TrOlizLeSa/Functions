@@ -1,7 +1,8 @@
 export default function fill(obj, keys, data) {
-  if (keys.length === 0) {
+  if (keys.length === 0){
     Object.assign(obj, data);
-  } else {
+  } 
+  else{
     keys.reduce((acc, key) => {
       if (key in data) {
         acc[key] = data[key];
@@ -9,5 +10,6 @@ export default function fill(obj, keys, data) {
       return acc;
     }, obj);
   }
+  
   return obj;
 }

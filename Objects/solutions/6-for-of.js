@@ -7,5 +7,6 @@
         result[item] = obj[item]
       }
     }
+    
     return result;
   }
